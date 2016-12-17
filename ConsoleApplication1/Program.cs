@@ -7,12 +7,7 @@ class Program
         //int[] nums2;
         //int searchNum = 2;
 
-        Array.ForEach(nums, delegate(int x) { x = x + 2; });
-        foreach (int item in nums)
-        {
-            Console.Write(item + " ");
-        }
-
+        Console.WriteLine(GC.MaxGeneration);
 
         #region Comments
         /*
